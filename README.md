@@ -1,3 +1,4 @@
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,35 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+# Webpage design overview
+
+Redisign a page of MetaLogic:
+- Home/Design, Build And Scale Your Vision With Us
+
+Here the content displayed are different in big and small screen.
+
+# "Building a Responsive Webpage with Fixed Header, Feature Section, and Theme Toggle"
+
+1. Fixed header (NavBar)
+- The header of the page is responsive and set in a fixed static position, ensuring it remains visible at the top of the page as users scroll through the content. This guarantees easy navigation no matter where the user is on the page.
+
+2. Reusable Card Components
+- This component is designed to show different pieces of information (like icons, titles, and descriptions) and can be easily reused across multiple sections of the page. 
+
+3. Feature section
+- Make use of Card components. Use hover, transition effect.
+
+4. Footer
+- A footer is added at the bottom of the page.
+
+5. Theme Toogle
+- A theme toggle feature allows users to switch between light and dark mode. This feature provides users with the option to choose their preferred theme, improving accessibility and comfort.
+
+# Tech Stack
+- React.js TypeScript
+- CSS 
+
+
+
