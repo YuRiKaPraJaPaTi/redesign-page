@@ -4,7 +4,7 @@
   width: 100%;
   padding: 12rem 2rem;
   border-bottom: 1px solid black;
-  background-color: white;
+  background-color: var(--feature-bg);
 }
 
 .heading{
@@ -16,7 +16,7 @@
 
 .heading h1{
 
-  color: black;
+  color: var(--feature-title);
   font-size: 2rem;
   margin-bottom: 1rem;
   

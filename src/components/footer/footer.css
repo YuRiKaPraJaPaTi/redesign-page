@@ -1,7 +1,7 @@
 .footer {
-  box-shadow: rgba(33,35,38,0.1);
-  background-color: #d4e6f1;
-  color: black;
+  box-shadow: var(--box-shadow);
+  background-color: var(--background-color);
+  color: var(--color);
   padding: 2rem 1rem;
   font-size: 1rem;
 }
@@ -30,13 +30,13 @@
 }
 
 .footer-section a {
-  color:black;
+  color: var(--color);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer-section a:hover {
-  color: black;
+  color: var(--color)
 }
 
 .footer-bottom {
@@ -44,5 +44,5 @@
   text-align: center;
   padding-top: 1rem;
   font-size: 0.85rem;
-  color: black;
+  color: var(--color)
 }

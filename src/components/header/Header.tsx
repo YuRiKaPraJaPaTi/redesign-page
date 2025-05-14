@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './header.css'
 import { GiHamburgerMenu } from "react-icons/gi";
+import ThemeToggle from '../themeToggle/ThemeToggle';
 
 const Header: React.FC = () => {
 
@@ -11,10 +12,11 @@ const Header: React.FC = () => {
   };
 
   return (
-   <header>
+   <header className='header'>
       <div className="container">
         <div className="grid navbar-grid">
           <div className="logo">
+            <ThemeToggle />
             <h1>  <main>MetaLogic</main></h1>
           </div>
 
@@ -33,9 +35,11 @@ const Header: React.FC = () => {
               <li>
                 <a>About Us</a>
               </li>
+              
             </ul>
+            
           </nav>
-
+          
           <div className='ham-menu'>
             <button onClick={handleButtonToogle}>
               <GiHamburgerMenu />
