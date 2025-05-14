@@ -71,6 +71,9 @@ Here the content displayed are different in big and small screen.
 5. Theme Toogle
 - A theme toggle feature allows users to switch between light and dark mode. This feature provides users with the option to choose their preferred theme, improving accessibility and comfort.
 
+6. ARIA lable
+- IN theme toggle button, ARIA lable is used
+
 # Tech Stack
 - React.js TypeScript
 - CSS 

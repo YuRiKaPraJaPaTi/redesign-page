@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+// import { MdOutlineWbSunny } from "react-icons/md";
 
 const ThemeToggle: React.FC = () => {
   const [isDark, setIsDark] = useState(() => {
@@ -21,7 +22,7 @@ const ThemeToggle: React.FC = () => {
       aria-checked={isDark}
       className="theme-toggle"
     >
-      {isDark ? 'Light' : 'Dark'}
+      {isDark ?  'Light' : 'Dark'}
     </button>
   );
 };
